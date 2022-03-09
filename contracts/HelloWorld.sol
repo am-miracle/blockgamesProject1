@@ -6,9 +6,9 @@ import "hardhat/console.sol";
 contract helloWorld {
     string helloWorldContract;
 
-    constructor() {
-        // helloWorld = "hello from the world";
-        console.log("constructor hello world");
+        constructor(string memory _helloWorldContract) {
+        console.log("Deploying a hello world with helloWorldContract:", _helloWorldContract);
+        helloWorldContract = _helloWorldContract;
     }
 
     // this creates a function that writes helloworld to the smart contract
