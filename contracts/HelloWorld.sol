@@ -11,11 +11,11 @@ contract helloWorld {
         console.log("constructor hello world");
     }
 
-    // create a function that writes helloworld to the smart contract
+    // this creates a function that writes helloworld to the smart contract
     function writeHelloWorld(string memory _helloWorldContract) public{
         helloWorldContract = _helloWorldContract;
     }
-    // create a function that reads helloworld to the smart contract and View functions in solidity do not require gas.
+    // this creates a function that reads helloworld to the smart contract and View functions in solidity do not require gas.
     function readHelloWorld() public view returns(string memory) {
         return helloWorldContract;
     }
