@@ -1,5 +1,7 @@
 # Successfully deployed contract's address
-0xA3829A58038dC3885808FCe1106A59Fcc46a5e64
+
+Contract deployed to: 0xE8eE3dB7431cEef650322811A22e7365341Ac1ca
+
 
 # Basic Sample Hardhat Project
 

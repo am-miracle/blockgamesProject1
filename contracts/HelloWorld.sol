@@ -1,22 +1,23 @@
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
 import "hardhat/console.sol";
 
-contract helloWorld {
-    string helloWorldContract;
-
-    constructor() {
-        // helloWorld = "hello from the world";
-        console.log("constructor hello world");
+contract HelloWorld {
+    string project;
+    
+        constructor(string memory _projectContract) {
+        project = _projectContract;
+        console.log("Deploying a hello world with projectContract:", _projectContract);
     }
 
-    // this creates a function that writes helloworld to the smart contract
-    function writeHelloWorld(string memory _helloWorldContract) public{
-        helloWorldContract = _helloWorldContract;
+    //create a function that writes project to the smart contract
+    function writeproject(string memory _project) public{
+        project = _project;
     }
-    // this creates a function that reads helloworld to the smart contract and View functions in solidity do not require gas.
-    function readHelloWorld() public view returns(string memory) {
-        return helloWorldContract;
+    // create a function that reads project to the smart contract
+    function readproject() public view returns(string memory) {
+        return project;
     }
 }
