@@ -1,7 +1,6 @@
 # Successfully deployed contract's address
 
-Contract deployed to: 0xE8eE3dB7431cEef650322811A22e7365341Ac1ca
-
+https://rinkeby.etherscan.io/address/0xE8eE3dB7431cEef650322811A22e7365341Ac1ca#code
 
 # Basic Sample Hardhat Project
 
